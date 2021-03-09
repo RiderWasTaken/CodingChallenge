@@ -1,0 +1,89 @@
+/* tags --> classes --> id.  */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+label {                         /* abilitazione puntatore mano in prossimitá del nome del veicolo*/
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button, input[type="checkbox"] { /* abilitazione puntatore mano in prossimitá delle checkbox*/
+  cursor: pointer;
+}
+
+header, nav {
+  text-align: center;
+}
+
+main {
+  padding: 0;
+}
+
+main > div {
+  margin-top: 30px;
+}
+
+.container {
+  width: 1200px;
+  margin: 25px auto;
+  padding: 70px 110px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);     /* opacitá 50% */
+}
+
+.options {                      /* riquadro pulsanti */
+  background-color: #2ef429;
+  padding: 10px;
+}
+
+.vehicle-info > span {
+  display: inline-block;
+}
+
+.vehicle-info > p {
+  font-size: 15px;
+  margin: 12px 0 5px 0;
+  line-height: 10px;
+}
+
+.charge1, .charge2, .charge3 {    /* settings barra generali */
+  border-radius: 4px;
+  height: 25px;
+}
+
+.charge1 {                        /* settings barra specifici */
+  width: 15%;
+  background-color: #e60026;
+}
+
+.charge2 {                         /* settings barra specifici */
+  width: 67%;
+  background-color: #00ff41;
+}
+
+.charge3 {                         /* settings barra specifici */
+  width: 43%;
+  background-color: #fe6e00;
+}
+
+#logo {                            /* logo azienda */
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+#st {                              /* subtitle */
+  color: #2ef429;
+}
